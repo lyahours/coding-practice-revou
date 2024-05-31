@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my journal</title>
+    </head>
+    <body>
+        kak ini kodenya saya ada update, jadinya kyk gini:
+<article class="form">
+<table>
+                <tr class="table-row">
+                    <td class="label">NAMA</td>
+                    <td>:</td>
+                    <td class="input-table"><input id="name" type="text" class="input-text"></input></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="label">TANGGAL LAHIR</td>
+                    <td>:</td>
+                    <td class="input-table"><input id="TANGGAL LAHIR" type="date" class="input-text"></input></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="label">JENIS KELAMIN</td>
+                    <td>:</td>
+                    <td class="input-table"><input id="laki-laki" type="radio" value="laki-laki" name="JENIS KELAMIN"></input>
+                    <label for="laki-laki">laki-laki</label>
+                    <input id="perempuan" type="radio" value="perempuan" name="JENIS KELAMIN"></input>
+                    <label for="perempuan">perempuan</label>
+                    </td>
+                </tr>
+
+                <tr class="table-row"> 
+                    <td class="label"><b>PESAN</b></td>
+                    <td>:</td>
+                    <td class="input-table"><textarea placeholder="Ketik disini" class="input-text"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" id="btn-submit" name="submit" align-items: center;>
+        </article>
+    </body>
+</html>
